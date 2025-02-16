@@ -42,14 +42,14 @@ management:
 
 payment:
   api:
-    create-url: "https://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com"
-    get-url: "https://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com"
+    create-url: "http://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com/create"
+    get-url: "http://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com"
 
 production:
   api:
-    create-url: "https://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com"
-    get-url: "https://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com/{ORDER-ID}/status"
-    change-url: "https://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com/{ORDER-ID}/status"
+    create-url: "http://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com"
+    get-url: "http://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com/{ORDER-ID}/status"
+    change-url: "http://a2774f61a5b354a459d3f99b939f7009-1239291071.us-east-1.elb.amazonaws.com/{ORDER-ID}/status"
 
 # OpenAPI
 springdoc:
