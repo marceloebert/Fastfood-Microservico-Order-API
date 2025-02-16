@@ -43,7 +43,7 @@ management:
 payment:
   api:
     create-url: "http://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com/payments/create"
-    get-url: "http://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com/payments"
+    get-url: "http://acebe9548d622483394562c8ec2bad54-1978896270.us-east-1.elb.amazonaws.com/payments/order"
 
 production:
   api:
