@@ -20,9 +20,9 @@ public class DynamoDBConfig {
         String sessionToken = System.getenv("AWS_SESSION_TOKEN");*/
 
         String region = "us-east-1";
-        String accessKey = "ASIAR3F4HGIBATB2JFNY";
-        String secretKey = "dNM9BY8TpCLOmXFfrXwQp6/6hJCs4SKG/f1U8vMf";
-        String sessionToken = "IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJHMEUCIQDaxQT9ZOwUQe6zCzBxp1rz46WhFG8YEBzN6yROQT98fQIgQP/rpAvrY82xh5NtYXBJA4jwZhheddmu75XWulAiuzEqsQIIZhAAGgwxMjcwOTYyNzEzNjIiDJgNIaZzYZ9YWKcSuiqOAtGbqjP17dS8UX4rYCOzlBj7nJVTcAoqNLCzqewGdyIpPz0fiIBbd+rZLYYihK4B5KRKoeKpV1rLALia7ip0Ji1941ssj9/otSjGcFUKJf/6MnXtmgFNFmpYukEMC7D5sDIU/8FVR7CmthKBs6l6JW3Z643RVXlA3gcNCbnsAJNoiGZtXMwOt7yTOExyIru0KsEBZbXVMR0/+FH0Rei9wYUc1mwHcd6HiTQg/FbEqTsyVBNz1JbAAGNsR4NF5LT+RvLneta+eOmbdJ4B/p4ZGf1suzBzllczlUa6g5O+tQ/LdsPiG9ghmh2Rm8bKQlBDJjWQLsN7fpW/xjlcf5H3Ixx9yMy7KTnNKMo+eVHXIjDCmsm9BjqdAZZ3u2LlWKvNWfSTgaq5dbgyZ+pznqYJJvGAZN1CKYumb7nDy4nlsLeWyZFikboLGAuqSmDDD6MYcC2OEXrE1+cDEm7UkmqMJVE1RpIHLVYfXflNX6K2YMNds29IUT9xCpo/x09xPfV9eeV1sj3+80tYF4JMnKwBp7c21gWC6lrqikxdP04A9b46nREeefDNXWTqeoPc72FEXQMlh5M=";
+        String accessKey = "ASIAR3F4HGIBNSKFBY3V";
+        String secretKey = "+KeoYabTL/1Xgq+D5QhmuyDSMIFb4dJGXZ2l9jN1";
+        String sessionToken = "IQoJb3JpZ2luX2VjEEIaCXVzLXdlc3QtMiJGMEQCICurtKdS66wlJTta9OJ0e7PhuLBpWvpSqa6CM9NuKBNUAiB3YrfuTB5DeLuxTKBnmguDX10Npfr7ZxHINhLuOX5m1iqxAghrEAAaDDEyNzA5NjI3MTM2MiIMITWHI0f2/BS9hjaMKo4C6yStEcMbHlWw2aN4byfiu4UMvmYe7QWbRN3nwtTEafi6d1gYmU1N2nn/xi+4FJWrUY8BfhD/kNV/dSS5yk0BN/X/IFnLctRqa2+OPaqsAJxM5biF3v7zUETB+QaNsuFHBdNKf+zwQBamjyIjbi4QS8bpQn3xqWd4riIUfs6e1ebFePXIFKJvbnHUOmGWIQ6MiwWsi0gka+tFmoFgv+PbC034d+0mzuOqEUM9u/7Q/BvnowFmLRx/co/5Aem16Lqj8+Szd/AEPeH5bww0ivd4ywiPneUtX+UgfzUWizkm0v247KoUK7+/QVVmpC7qn9W91Cwx6b75sITpwIVGuthE4VSB6J7ruLtXHtEhZZ5pMKCnyr0GOp4BHPz0MAYXwPcndlfigNDZYvjA7/fHlScU2WYXOShLdIKCatPjYOaLVzHKzvBvfMtfwvFnGvrL0xTNpli6EouZGA/SKYzLbH/wNd4KI7jQTlYVN3q/dO9Rsp/p7b8rlnGPmv5WK2nWyFBMk6OcWyr5sVq88rP3gZMdlnsRYDfeTIXT/aSiIjeEpwO8/4RIqcG8ek9oShX+HLauKnsM1rk=";
 
         return DynamoDbClient.builder()
                 .region(Region.of(region))
